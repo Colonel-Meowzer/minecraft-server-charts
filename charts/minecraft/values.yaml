@@ -132,9 +132,9 @@ minecraftServer:
   # Define this if you want a specific map generation seed.
   levelSeed:
   # One of: creative, survival, adventure, spectator
-  gameMode: survival
+  gameMode: creative
   # Message of the Day
-  motd: "Welcome to Minecraft on Kubernetes!"
+  motd: "Welcome Dean!"
   # If true, enable player-vs-player damage.
   pvp: false
   # One of: DEFAULT, FLAT, LARGEBIOMES, AMPLIFIED, CUSTOMIZED
@@ -153,6 +153,7 @@ minecraftServer:
   removeOldMods: false
   # Check accounts against Minecraft account service.
   onlineMode: true
+  cheats: true
   # If you adjust this, you may need to adjust resources.requests above to match.
   memory: 1024M
   # General JVM options to be passed to the Minecraft server invocation
